@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Portugues
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_probando">Probando</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+
+
+    //Apartir de aqui empieza a modificar
+
+
+    //Menu principal
+    <string name="app_name">Datanet</string>
+    <string name="perfil">Profile</string>
+    <string name="actividad">Lista de atividades</string>
+    <string name="camara">Câmera</string>
+    <string name="configuracion">Configurações</string>
+    <string name="logout">Sair</string>
+
+    //Confirmar registro
+    <string name="confirmarRegistro">Confirme o registro</string>
+    <string name="volverEnviarCorreo">Reenviar e-mail</string>
+    <string name="Inicio">Retornar a página inicial</string>
+
+    //Login
+    <string name="correo">O email</string>
+    <string name="contraseña">Senha</string>
+    <string name="entrar">Conecte-se</string>
+    <string name="registrarse">Inscrever-se</string>
+
+    //Registrarse
+    <string name="nombre">Nome</string>
+    <string name="correo2">O email</string>
+    <string name="contraseña0">Senha</string>
+    <string name="contraseña1">Confirme sua senha</string>
+    <string name="Crear">Criar uma nova conta</string>
+    <string name="Registro">Inscrever-se</string>
+
+    //Configuracion
+    <string name="title_activity_verificacion_">Verificação de atividade</string>
+    <string name="config">Configurações</string>
+    <string name="str_button">Mudar idioma</string>
+    <string name="str_es">inglês</string>
+    <string name="str_en">Espanhol</string>
+    <string name="str_pt">Português</string>
+
+    //Menu principal de la camara
+    <string name="recognize">Rechonocer</string>
+    <string name="training">Treinar</string>
+
+
+
+    //Recognize
+    <string name="camara2">Camara</string>
+    <string name="enviar">Mandar</string>
+    <string name="Straininig">Receber</string>
+    <string name="scan">Varredura</string>
+    <string name="scanning">Scanning</string>
+    <string name="SCanntoPredic">É preciso mais de um rosto</string>
+
+    //Review Results1
+    <string name="mark_attendance">Atendimento de discagem</string>
+
+    //Activity Name
+    <string name="who_are_you_going_to_train">Quem você vai treinar? </string>
+    <string name="please_enter_the_same_name_for_the_same_person_everytime_you_train_that_person">Insira o mesmo nome para a mesma pessoa sempre que for treinar </string>
+    <string name="siguiente">Próximo</string>
+
+    //Activity Training
+    <string name="image_preview">Imagem de visualização</string>
+    <string name="capture">Capturar</string>
+    <string name="capturing">Capturando</string>
+    <string name="camara3">Camara</string>
+
+
+
+    //Perfil
+    <string name="Miperfil">Meu perfil</string>
+    <string name="Nombre">Nome</string>
+    <string name="Numero">Número de telefone</string>
+    <string name="Regresar">Para retornar</string>
+    <string name="Guardar_cambios">Guardar mudanças</string>
+
+    //Activity Datos
+    <string name="Informacion">Informações gerais</string>
+    <string name="Nombre2">Nome</string>
+    <string name="Numero2">Número de telefone</string>
+
+    //Editar foto
+    <string name="Foto">Imagem de perfil</string>
+    <string name="Cambiar_foto">Mudar foto</string>
+
+
+    //Subir foto
+    <string name="Agregar">Adicione uma foto de perfil</string>
+    <string name="Agregar_foto">Mudar foto</string>
+
+    //Usuarios
+    <string name="Tipos">Identifique o seu tipo de usuário</string>
+    <string name="Usuario">Do utilizador</string>
+    <string name="Administrador">Administrador</string>
+    <string name="Jefes">Se você é o gerente ou chefe da empresa</string>
+    <string name="opcion1">Selecione esta opção</string>
+    <string name="Empleado">n caso você seja um funcionário</string>
+    <string name="opcion2">Selecione esta opção</string>
+
+
+
+    <string-array name="Languages">
+    <item>@string/str_en</item>
+    <item>@string/str_es</item>
+    <item>@string/str_pt</item>
+    </string-array>
+</resources>

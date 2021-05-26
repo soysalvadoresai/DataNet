@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="3dp"
+    android:layout_margin="6dp"
+    android:background="#31AFB4">
+
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtMensaje10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMensaje12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:text="Sesiones"
+            android:textColor="#FA0202"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

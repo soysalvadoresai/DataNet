@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //English
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_probando">Probando</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+
+
+    //Apartir de aqui empieza a modificar
+
+//Menu principal
+    <string name="app_name">Datanet</string>
+    <string name="perfil">Profile</string>
+    <string name="actividad">Activity list</string>
+    <string name="camara">Camera</string>
+    <string name="configuracion">Settings</string>
+    <string name="logout">Log out</string>
+
+//Confirmar registro
+    <string name="confirmarRegistro">Confirm registration</string>
+    <string name="volverEnviarCorreo">Resend mail</string>
+    <string name="Inicio">Return to home page</string>
+
+//Login
+    <string name="correo">Email</string>
+    <string name="contraseña">Password</string>
+    <string name="entrar">Log in</string>
+    <string name="registrarse">Sign up</string>
+
+//Registrarse
+    <string name="nombre">Name</string>
+    <string name="correo2">Email</string>
+    <string name="contraseña0">Password</string>
+    <string name="contraseña1">Confirm password</string>
+    <string name="Crear">Create a new account</string>
+    <string name="Registro">Sign Up</string>
+
+//Configuracion
+    <string name="title_activity_verificacion_">Verificacion_Activity</string>
+    <string name="config">Settings</string>
+    <string name="str_button">Change Language</string>
+    <string name="str_es">English</string>
+    <string name="str_en">Spanish</string>
+    <string name="str_pt">Portuguese</string>
+
+    //Menu principal de la camara
+    <string name="recognize">Recognize</string>
+    <string name="training">Training</string>
+
+
+    //Recognize
+    <string name="camara2">Camera</string>
+    <string name="enviar">Submit</string>
+    <string name="Straininig">Welcome</string>
+    <string name="scan">Scan</string>
+    <string name="scanning">Scanning</string>
+    <string name="SCanntoPredic">It takes more than one face</string>
+
+    //Review Results1
+    <string name="mark_attendance">Mark attendance</string>
+
+    //Activity Name
+    <string name="who_are_you_going_to_train">Who are you going to train? </string>
+    <string name="please_enter_the_same_name_for_the_same_person_everytime_you_train_that_person">Please enter the same name for the same person everytime you train that person </string>
+    <string name="siguiente">Next</string>
+
+    //Activity Training
+    <string name="image_preview">Image Preview</string>
+    <string name="capture">Capture</string>
+    <string name="capturing">Capturing</string>
+    <string name="camara3">Camara</string>
+
+    //Perfil
+    <string name="Miperfil">My profile</string>
+    <string name="Nombre">Name</string>
+    <string name="Numero">Phone number</string>
+    <string name="Regresar">Return</string>
+    <string name="Guardar_cambios">Save changes</string>
+
+    //Activity Datos
+    <string name="Informacion">General information</string>
+    <string name="Nombre2">Name</string>
+    <string name="Numero2">Phone number</string>
+
+    //Editar foto
+    <string name="Foto">Profile picture</string>
+    <string name="Cambiar_foto">Change photo</string>
+
+
+    //Subir foto
+    <string name="Agregar">Add a profile picture</string>
+    <string name="Agregar_foto">Change photo</string>
+
+    //Usuarios
+    <string name="Tipos">Identify your type of user</string>
+    <string name="Usuario">User</string>
+    <string name="Administrador">Administrator</string>
+    <string name="Jefes">If you are the manager or head of the company</string>
+    <string name="opcion1">Select this option</string>
+    <string name="Empleado">In case you are an employee</string>
+    <string name="opcion2">Select this option</string>
+
+
+    <string-array name="Languages">
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+        <item>@string/str_pt</item>
+    </string-array>
+
+
+</resources>

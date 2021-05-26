@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataNet.iml" filepath="$PROJECT_DIR$/.idea/modules/DataNet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/facerecognition/DataNet.facerecognition.iml" filepath="$PROJECT_DIR$/.idea/modules/facerecognition/DataNet.facerecognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary2410/DataNet.openCVLibrary2410.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary2410/DataNet.openCVLibrary2410.iml" />
+    </modules>
+  </component>
+</project>

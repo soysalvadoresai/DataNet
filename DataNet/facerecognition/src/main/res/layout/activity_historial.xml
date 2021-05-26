@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.datanet_app.HistorialActivity"
+    android:orientation="vertical"
+    android:background="#31AFB4">
+
+    <TextView
+        android:id="@+id/txtMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:autoSizeTextType="uniform"
+        android:text="Historial"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMostrar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/input_minimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:hint="Minimo" />
+
+                <Button
+                    android:id="@+id/btn_minimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/input_maximal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:hint="Maximo" />
+
+                <Button
+                    android:id="@+id/btn_maximal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:enabled="false"
+            android:text="Buscar" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnFiltro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:background="@drawable/button_rounded"
+        android:text="Refrescar"
+        app:backgroundTint="#115571" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler1"
+        android:layout_width="360dp"
+        android:layout_height="541dp"
+        android:layout_below="@+id/btnFiltro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMostrar" />
+
+</RelativeLayout>
